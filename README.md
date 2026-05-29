@@ -5,7 +5,7 @@
 - MySQL
 ## Как запустить проект:
 1. Склонируйте репозиторий
-git bash
+```bash
 git clone https://github.com/LiliyaIgolnikova/test
 2. Откройте файл "index.php" через браузер с помощью локального сервера
 ## Возможности программы:
