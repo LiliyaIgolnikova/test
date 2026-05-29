@@ -6,7 +6,7 @@
 ## Как запустить проект:
 1. Склонируйте репозиторий
 git bash
-https://github.com/LiliyaIgolnikova/test
+git clone https://github.com/LiliyaIgolnikova/test
 2. Откройте файл "index.php" через браузер с помощью локального сервера
 ## Возможности программы:
 1. Форма входа с проверкой данных пользователя из базы данных
