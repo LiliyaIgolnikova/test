@@ -16,7 +16,6 @@
         $password = $_POST['password'];
         $id = $user['id'];
         $mysql = new mysqli('localhost', 'root', '', 'reg');
-        //$mysql->query("UPDATE `users` SET (`name`, `phone`, `email`, `password`) VALUES ('$name', '$phone', '$email', '$password') WHERE `id` = '$id'");
         $mysql->query("UPDATE `users` SET `name` = '$name', `phone` = '$phone', `email` = '$email', `password` = '$password' WHERE `id` = '$id'");
         $mysql->close();
         session_start();
